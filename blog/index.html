@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="robots" content="index, follow">
+  <title>Blog - PixelNova</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #121212; /* Background hitam aesthetic */
+      color: #e0e0e0; /* Warna teks abu-abu terang */
+    }
+    header {
+      background: #1e1e1e; /* Hitam lebih gelap untuk header */
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+    header nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 15px;
+      font-size: 1rem;
+      padding: 5px 10px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    header nav a:hover {
+      background-color: rgba(255, 255, 255, 0.1); /* Efek hover transparan */
+      color: #bb86fc; /* Ungu neon aesthetic */
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background: #1e1e1e; /* Hitam lebih gelap untuk konten */
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    }
+    .article-list {
+      list-style: none;
+      padding: 0;
+    }
+    .article-item {
+      background: #2c2c2c; /* Hitam lebih terang untuk artikel item */
+      margin-bottom: 15px;
+      padding: 15px;
+      border-radius: 5px;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .article-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+    .article-item a {
+      text-decoration: none;
+      color: inherit;
+    }
+    .article-item h2 {
+      color: #bb86fc; /* Judul dengan warna ungu neon */
+      font-size: 1.5rem;
+      margin-top: 0;
+    }
+    .article-item p {
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 10px 0;
+      background: #121212; /* Hitam pekat untuk footer */
+      color: #e0e0e0; /* Warna teks abu-abu terang */
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+      header nav a {
+        font-size: 0.9rem;
+      }
+      .article-item h2 {
+        font-size: 1.3rem;
+      }
+      .container {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>PixelNova</h1>
+    <nav>
+      <a href="../index.html">Beranda</a>
+      <a href="#blog">Blog</a>
+      <a href="../tentang/tentang.html">Tentang</a>
+      <!-- <a href="#kontak">Kontak</a> -->
+    </nav>
+  </header>
+  <div class="container">
+    <ul class="article-list">
+      <li class="article-item">
+        <a href="artikel/Perbedaan-Antara-AI-Generatif-dan-AI-Agent-Penjelasan-Sederhana.html">
+          <h2>Perbedaan Antara AI Generatif dan AI Agent: Penjelasan Sederhana</h2>
+          <p>
+            Di era teknologi yang terus berkembang, kecerdasan buatan (AI) telah menjadi salah satu topik yang paling banyak dibicarakan.
+          </p>
+        </a>
+      </li>
+
+      <!-- <li class="article-item">
+        <a href="artikel/artikel-pertama.html">
+          <h2>Judul Artikel Kedua</h2>
+          <p>
+            Curabitur auctor, nibh sed cursus volutpat, urna ex fringilla ligula, vel fermentum nunc nulla vitae metus.
+          </p>
+        </a>
+      </li> -->
+
+      <!-- <li class="article-item">
+        <a href="artikel/artikel-pertama.html">
+          <h2>Judul Artikel Ketiga</h2>
+          <p>
+            Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+          </p>
+        </a>
+      </li> -->
+
+    </ul>
+  </div>
+  <footer>
+    &copy; 2023 Website Artikel Saya
+  </footer>
+</body>
+</html>
