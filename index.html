@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Temukan berbagai artikel menarik seputar teknologi, gaya hidup, dan banyak lagi!">
+  <meta name="robots" content="index, follow">
+  <title>PixelNova</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #121212; /* Background hitam aesthetic */
+      color: #e0e0e0; /* Warna teks abu-abu terang */
+    }
+    header {
+      background: #1e1e1e; /* Hitam lebih gelap untuk header */
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+    header nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 15px;
+      font-size: 1rem;
+      padding: 5px 10px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    header nav a:hover {
+      background-color: rgba(255, 255, 255, 0.1); /* Efek hover transparan */
+      color: #bb86fc; /* Ungu neon aesthetic */
+    }
+    .hero {
+      background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+      background-blend-mode: overlay;
+      background-color: rgba(0, 0, 0, 0.6); /* Overlay hitam untuk efek aesthetic */
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+    .hero a {
+      background: #bb86fc; /* Ungu neon aesthetic */
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 1rem;
+      transition: background-color 0.3s ease;
+    }
+    .hero a:hover {
+      background: #7c4dff; /* Ungu lebih gelap saat hover */
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background: #1e1e1e; /* Hitam lebih gelap untuk konten */
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    }
+    .about-section h2 {
+      color: #bb86fc; /* Judul dengan warna ungu neon */
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+    }
+    .about-section p {
+      font-size: 1rem;
+      margin-bottom: 15px;
+    }
+    footer {
+      text-align: center;
+      padding: 10px 0;
+      background: #121212; /* Hitam pekat untuk footer */
+      color: #e0e0e0; /* Warna teks abu-abu terang */
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+      header nav a {
+        font-size: 0.9rem;
+      }
+      .hero h2 {
+        font-size: 2rem;
+      }
+      .hero p {
+        font-size: 1rem;
+      }
+      .container {
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>PixelNova</h1>
+    <nav>
+      <a href="#beranda">Beranda</a>
+      <a href="blog/index.html">Blog</a>
+      <a href="tentang/tentang.html">Tentang</a>
+      <!-- <a href="#kontak">Kontak</a> -->
+    </nav>
+  </header>
+  <section class="hero">
+    <h2>Selamat Datang di Website PixelNova</h2>
+    <p>Temukan berbagai artikel menarik seputar teknologi, gaya hidup, dan banyak lagi!</p>
+    <a href="blog/index.html">Jelajahi Artikel</a>
+  </section>
+  <div class="container">
+    <section class="about-section">
+      <h2>Tentang Website Ini</h2>
+      <p>
+        Website ini dibuat untuk berbagi pengetahuan dan informasi melalui artikel-artikel yang bermanfaat. 
+        Kami berkomitmen untuk menyediakan konten yang berkualitas dan mudah dipahami oleh semua pembaca.
+      </p>
+      <p>
+        Dengan desain yang responsif, website ini dapat diakses dengan nyaman di berbagai perangkat, baik desktop maupun mobile.
+      </p>
+    </section>
+  </div>
+  <footer>
+    &copy; 2023 Website Artikel Saya
+  </footer>
+</body>
+</html>
